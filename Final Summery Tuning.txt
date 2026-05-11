@@ -1,0 +1,12 @@
+==========================================================================================
+  TUNED HYPERPARAMETERS — ALL MODELS
+==========================================================================================
+Model       to_db     normalize     optimizer     lr        scheduler     reg_type    
+------------------------------------------------------------------------------------------
+Model1      True      False         SGD           0.001     StepLR        L1          
+Model2      True      True          SGD           0.001     StepLR        L1          
+Model3      True      False         Adam          0.001     StepLR        L2          
+Model4      True      True          SGD           0.001     None          L2          
+Model5      True      False         Adam          0.001     StepLR        L1          
+Model6      True      True          SGD           0.001     StepLR        Dropout     
+==========================================================================================
