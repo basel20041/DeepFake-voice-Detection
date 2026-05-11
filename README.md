@@ -22,3 +22,21 @@ CNN-Based classification models for detecting Deep Fake Generated vocals using S
 | Taylor Swift    | Women in Music Speech   | 10:00          |
 | Donald Trump    | Victory Speech          | 10:00          |
 | Total           | ---                     | 62:22          |
+
+--- 
+# Code Structure
+## Notebook :
+The Notebook consists of 9 main sections
+1. Import Dependencies
+	- For this project, several libraries were used but most important was:
+		#librosa its a famous Library for audio processing and handling
+2. Getting the data ready:
+3. Dataset and loaders
+4. Modelling (Its also the same for model.py) 
+5. Hyper-parameter Tuning — Sequential Coordinate Approach
+	- This explains the approach for Tuning the models, and creates training functions for
+6. Tuning function
+	- Configuration and a function that iterates over all hyper-parameters 
+7. Run
+8. Summery
+9. feature maps plotting 
